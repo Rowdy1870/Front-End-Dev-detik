@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Register</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/daftar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></script>
+        <script src="https://kit.fontawesome.com/e447849cbf.js" crossorigin="anonymous"></script>   
+    </head>
+    <body>
+        <header>   
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+                </label>
+                <a class="gmbr" href="index.html"><img class="logo" src="img/detik.png"></a>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#mekanisme">Mechanism</a></li>
+                    <li><a href="#latest">Latest Update</a></li>
+                    <li><a class="reg" href="daftar.html">Register</a></li>
+                </ul>
+            </nav>
+                <div class="overlay"></div>
+                <div class="banner_s">
+                    <img class="wave" src ="img/newlineatas.svg" alt="SVG Happyku"/>
+                </div>
+        </header>
+        <div class="register">
+            <div class="teks">Registrasi</div>
+                <div class="forml">
+                        <div>
+                            <input type="text" name="namaPerusahaan" placeholder="Nama Perusahaan">
+                        </div>
+                            <div> <input type="email" name="email" placeholder="Email"></div>
+                                <div>  <input type="text" name="nomortlp" placeholder="Nomor Telepon"></div>
+                                    <div class="remin">Isi hanya Angka</div>
+                                        <textarea rows="7" name="tentang" id="comment" placeholder="Tentang Perusahaan (Max. 200 character)"></textarea>
+                                            <div class="wrapper">
+                                                <form action="#">
+                                                <input class="file-input" type="file" name="file" hidden>
+                                                    <img class="gambar" src="img/plus.png"/>
+                                                        <p>Browse File to Upload</p>
+                                                            <section class="progress-area"></section>
+                                                                <section class="uploaded-area"></section>
+                                                            </form>
+                                            </div>
+                  <div class="info">
+                    1. Format file: .png, jpg, jpeg.
+                    <br>
+                    2. Maksimal ukuran file 200KB,
+                    <br>
+                    3. Hindari penggunaan logo berwarna putih
+                    <br>
+                    4. Minimal lebar 300px
+                  </div>
+                  <div class="perusahaan">  
+                    <input type="text" name="profil" placeholder="Profil Perusahaan atau Deck (opsional)">
+                 </div>
+                    <div class="keluar" href="#">Upload file</div>
+                <div class="remin">Format file .pdf , maksimal size 20 mb</div>
+                <div class="ling">  
+                    <input type="text" name="profil" placeholder="Link Website">
+                 </div>
+                <div class="remin">Website, Sosial Media, dl Sertakan protokol URL (https:// atau http://)</div>
+                <div class="syarat">
+                    <input type="checkbox" id="c1" name="cc" />
+                        <label for="setuju">Dengan menekan tombol "Register", Saya menyetujui syarat dan ketentuan yang berlaku</label>
+                    </div>
+                    <div class="tombl_r" href="#">Register</div> 
+            </div>
+        </div>
+    </div>
+        <script src="js/script.js"></script>
+    </body>
+    <footer>
+        <div class="foot">
+            <div class="teks_foot">
+                <div class="detik">detikfinance</div>
+                    <div class="busines">BUSINESS PLAN </div>
+                        <div class="compe">COMPETITION 2023</div>
+                            <div class="olah">DetikFinance memberikan ruang kepada para startup di indonesia untuk menunjukan, 
+                                serta mempromosikan brand mereka untuk mendapatkan perhatian dari venture capital atau angel investor
+                            </div>
+                            <div class="sos">
+                                <i class="fa-brands fa-twitter" style="color: white;"></i>
+                                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                                <i class="fab fa-facebook" style="color: white;"></i>
+                        </div>
+                                <hr>
+                                    <div class="copyr">&copy 2023 Detikcom. All rights reserved </div>
+        </div>
+    </footer>
+</html>

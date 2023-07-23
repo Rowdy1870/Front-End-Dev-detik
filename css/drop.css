@@ -1,0 +1,1507 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;500&family=Poppins:wght@600&family=Rubik:wght@700&display=swap');
+
+* {
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik",sans-serif;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:floralwhite;
+    text-decoration: none;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-color: #f4fbff;
+}
+header {
+    width: auto;
+    height: 140%;
+    background-image: url(orang.jpg);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    position: relative;
+
+}
+nav {
+    position: fixed;
+    width: 100%;
+    transition: 1s ease;
+    z-index: 1;
+
+}
+nav ul {
+    list-style: none;
+    background: rgb(0,124,189);
+    overflow: hidden;
+    padding-left: 52%;
+    margin: 0;
+    transition: 1s;
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+iframe {
+    width: 350px;
+    height: 200px;
+    margin-top: 40px;
+
+}
+
+button {
+    position: fixed;
+    margin-left:80%;
+    margin-top: 10px;
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 100;
+    z-index: 2;
+}
+
+h2 {
+    color: rgb(0,124,189);
+    margin-bottom: 10px;
+    margin-left: -30px;
+    font-size: 1.6vw;
+
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 15px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+  }
+
+.reg {
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    background-color: #f4fbff;
+    color: rgb(0,124,189);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.meka {
+    color: white;
+    font-family: "Rubik",sans-serif;
+    margin-top: auto;
+    margin-left: 18.5%;
+    margin-bottom: 40px;
+
+}
+
+.overlay {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    background: rgba(0,124,189,.8);
+    
+}
+
+.newtombol {
+    position: absolute;
+    background-color: rgb(0,124,189);
+    top: 65%;
+    left: 40%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.daf {
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:floralwhite;
+    text-decoration: none;
+    padding : 10px 10px 0px 10px;
+    
+}
+
+.newtombol_2 {
+    margin-top: 20%;
+    position: absolute;
+    background-color: rgb(0,124,189);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:floralwhite;
+    text-decoration: none;
+    padding : 10px 10px 10px 10px;
+}
+
+.teks-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+.teks_kesatu {
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color:floralwhite;
+    text-decoration: none;
+}
+.teks_kedua {
+    margin-bottom: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bolder;
+    font-size: 33px;
+    color:floralwhite;
+    text-decoration: none;
+}
+
+.teks_ketiga {
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color:floralwhite;
+    text-decoration: none;
+    
+}
+
+.logo {
+    cursor:pointer;
+    position: fixed;
+    float: left;
+    margin: 0px 0px 0px 30px;
+    width: 130px;
+}
+
+.box_1{
+    width: 100%;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 50px 10px 50px;
+    text-indent:2em;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    box-shadow: 0  -90px 190px 50px white;
+    position: relative;
+    border-top: 1px solid rgba(0, 0, 0, 0.315)
+}
+
+.finance {
+    width: 60%;
+    height: 100%;
+    padding: 80px 70px 10px 10px;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    text-decoration: none;
+    text-align: justify;
+
+}
+
+.finance h2 {
+    color: rgb(0,124,189);
+    margin-bottom: 10px;
+    margin-left: -30px;
+    font-size: 1.6vw;
+
+
+
+}
+
+.med {
+    top: 72%;
+    left: 43%;
+    width: 400px;
+    max-width: auto;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(0,124,189);
+    cursor: pointer;
+
+}
+
+.med a {
+    width: 300px;
+    left: -13%;
+    max-width: auto;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(0,124,189);
+
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+}
+
+.banner .waves_atas {
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+
+}
+
+.banner_b {
+    position: absolute;
+    width: 100%;
+    bottom: -5%;
+}
+
+.banner_b .waves_bawah {
+    width: 100%;
+    height: auto;
+    margin-bottom: -50px;
+}
+
+
+
+.banner_1 {
+    position: absolute;
+    width: 100%;
+}
+
+.banner_1 .wave_1 {
+    width: 100%;
+    margin-top: -30%;
+
+}
+
+.banner_2 {
+    width: 100%;
+}
+
+.banner_2 .wave_2 {
+    width: 100%;
+    height: auto;
+    margin-top: -30%;
+
+}
+
+.boxutama {
+    width: 100%;
+    height: fit-content;
+    padding-top: 20%;
+    display: inline-block;
+    background: radial-gradient(circle, white, rgb(0,124,189));
+}
+
+.box_2{
+    width: 850px;
+    height: fit-content;
+    overflow: auto;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    margin-bottom: 20px ;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.box_2:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.7);
+}
+
+.judul {
+    font-family: "Poppins",sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    text-indent:2em;
+    color: rgb(0,124,189);
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.jenis_kesatu {
+    width:700px;
+    top: -10px;
+    left: 7px;
+    text-align:justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    float: right;
+    position: relative;
+    margin-bottom: 20px;
+
+
+}
+
+.ling {
+    text-align:justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0,124,189);
+    cursor: pointer;
+}
+
+.jenis_kedua {
+    top: -10px;
+    left: 4px;
+    text-align:justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    float: right;
+    position: relative;
+}
+
+.jenis_ketiga {
+    top: 10px;
+    left: -32px;
+    text-align:justify;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    float: right;
+    position: relative;
+}
+
+.para {
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 1px;
+    color: black;
+    text-indent: 0.8em;
+
+}
+
+.tanggal {
+    text-align: end;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -21px;
+    margin-right: 20px;
+
+}
+
+.teks_dapat {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.dapat {
+    width: 700px;
+    height: auto;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0,124,189,.8);
+}
+
+.lokicon {
+    width: 65px;
+    height: 65px;
+    float: left;
+    background-color: rgb(0,124,189);
+    border-radius: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 17px;
+    position: relative;
+
+
+}
+.ikon {
+    width: 32px;
+    height: 32px;
+
+
+}
+
+.bergerak {
+    height: 285px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+   
+}
+
+.jalur_bergerak {
+    display: flex;
+    width: calc(250px * 16);
+    animation: scroll 40s linear infinite;
+    
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 8));
+    }
+}
+
+.gerak {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.list{
+    width:100%;
+    height: auto;
+    max-width: 100%;
+    margin: 10px 0px 0px 0px;
+    padding: 70px 70px 70px 70px;
+    
+}
+
+.grid-container {
+    width: 100%;
+    height: auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 3em;
+}
+
+.foto {
+    top: 0;
+    left: 0;
+    height: 220px;
+    max-height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.location-listing {
+    position: relative;
+  
+}
+
+.berita {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+}
+
+.tgl {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color:gray;
+    text-decoration: none;
+}
+
+.location-image {
+    text-align: justify;
+
+}
+
+.location-image img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+
+}
+
+.location-listing:hover .location-image img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  
+}
+
+.location-image .berita {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+
+}
+
+.location-listing:hover .berita {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    color: rgb(0,124,189);
+  }
+
+.foot {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0,124,189);
+
+
+}
+
+.lateUp {
+    font-family: "Rubik",sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: auto;
+    margin-left: 0px;
+    margin-bottom: 40px;
+
+}
+
+.teks_foot {
+    padding: 20px;
+    text-align: left;
+}
+
+.detik {
+    margin-top: 30px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.busines {
+    font-family: "Rubik",sans-serif;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.compe {
+    font-family: "Montserrat",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 7.5px;
+}
+
+.olah {
+    width: 790px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
+
+.sos {
+    margin-top: -30px;
+    margin-left: 90%;
+    width: 400px;
+    max-width: auto;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 10px;
+    cursor: pointer;
+
+}
+
+.copyr {
+    margin-top: 10px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width:1024px) {
+    header {
+        width: auto;
+        height: 120%;
+    
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+        transition: 1s ease;
+        z-index: 1;
+    
+    }
+    nav ul {
+        list-style: none;
+        background: rgb(0,124,189);
+        overflow: hidden;
+        padding-left: 52%;
+        padding-top: 20px;
+        margin: 0;
+        transition: 1s;
+    }
+    nav ul li {
+        height: 50px;
+        display: inline-block;
+        padding: 10px;
+
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-size: 13.5px;
+        letter-spacing: 1px;
+    }
+    .banner {
+        width: auto;
+        margin-top: 10%;
+    }
+    .banner_b {
+        width: auto;
+        bottom: -1%;
+    }
+
+    .newtombol {
+        width: auto;
+        margin-top: 3%;
+    }
+    .newtombol_2 {
+        margin-top: 28%;
+    }
+
+    .overlay {
+        height: 100%;
+        max-width: auto;
+    }
+    .reg {
+        font-size: 14px;
+
+    }
+    .boxutama {
+        width: 100%;
+    }
+    .box_2 {
+        width: max-content;
+        height: 100%;
+
+    }
+    .lokicon {
+        margin-top: -60px;
+        margin-left: 15%;
+
+    }
+    .judul {
+        margin-left: 22.8%;
+     
+    }
+
+    .med {
+        top: 67%;
+        left: 43.5%;
+        width: 350px;
+        max-width: auto;
+        position: absolute;
+        font-size: 18px;
+        color: rgb(0,124,189);
+    
+    }
+    .med a {
+        width: 300px;
+        left: -13%;
+        max-width: auto;
+        position: absolute;
+        font-size: 18px;
+        color: rgb(0,124,189);
+        cursor: pointer;
+    
+    }
+    .olah {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width:768px){
+    .checkbtn{
+        display: block;
+        margin-top: 10px;
+    }
+    .logo{
+        margin-left: 3%;   
+        top: 2px;
+        bottom: 2px;
+        cursor:pointer;
+        position: fixed;
+        width: 100px;
+        height: 50px;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+        max-height: auto;
+        background:rgb(0,124,189);
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #ff2323;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0px 0px -400px;
+
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    header{
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+    }
+    h2 {
+        width: 100%;
+        height: auto;
+        margin-left: 5px;
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+    }
+    iframe {
+        width: 250px;
+        height: 200px;
+
+
+    }
+    .finance {
+        width: 100%;
+        font-size: 10px;
+
+    }
+
+    .finance h2{
+        width: 100%;
+        font-size: 12px;
+        margin-left: -10px ;
+
+    }
+    .boxutama {
+        width: 100%;
+        height: auto;
+        padding: 20% 2% 2% 2%;
+    }
+    .box_2{
+        width: 100%;
+        height: auto;
+        padding: 5px 5px 5px 5px;
+    }
+    .foot {
+        width: 100%;
+
+    }
+    .olah {
+        width: auto;
+    }
+    .jenis_kesatu {
+      width: 600px;
+      left: -7px;
+      font-size: 12px;
+
+    }
+    .ling {
+        font-family: "Montserrat",sans-serif;
+        font-size: 12px;
+    }
+
+
+    .jenis_kedua {
+        width: 601px;
+        left: -10px;
+        font-size: 12px;
+
+    }
+    .jenis_ketiga {
+        width: 580px;
+        left: -10px;
+        font-size: 12px;
+    }
+
+    .lokicon {
+        margin-top: -30px;
+        margin-left: 3%;
+
+    }
+    .judul {
+        margin-left: 65px;
+     
+    }
+
+    .tanggal {
+        margin-left: -40px;
+    }
+
+    .para {
+        font-size: 12px;
+    }
+    .banner {
+        width: auto;
+        margin-top: 10%;
+    }
+    .banner_b {
+        width: auto;
+        bottom: 4%;
+    }
+    .newtombol {
+        width: auto;
+        margin-left: -3%;
+    }
+
+    .newtombol_2 {
+        margin-top: 35%;
+    }
+    .banner_1 {
+        width: auto;
+        margin-top: -2%;
+    }
+    .banner_2 {
+        width: auto;
+        margin-bottom: -5%;
+        margin-left: -5%;
+    }
+    .overlay {
+        height: 120%;
+        max-width: auto;
+        margin-top: -10%;
+    }
+
+    .foto {
+        top: 0;
+        left: 0;
+        height: 150px;
+        max-height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .sos {
+        margin-top: 5px;
+        margin-left: 45%;
+        width: auto;
+        max-width: auto;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 25px;
+        display: flex;
+    
+    }
+    .med {
+        top: 77%;
+        left: 43%;
+        width: 250px;
+        max-width: auto;
+        position: absolute;
+        font-size: 15px;
+        color: rgb(0,124,189);
+    
+    }
+    .med a {
+        width: 300px;
+        left: -13%;
+        max-width: auto;
+        position: absolute;
+        font-size: 14px;
+        color: rgb(0,124,189);
+        cursor: pointer;
+    
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    .col :nth-child(2) {
+        flex-basis:100%;
+    }
+}   
+
+
+@media only screen and (max-width:550px) {
+    .checkbtn{
+        display: block;
+        margin-top: 10px;
+    }
+    .logo{
+        margin-left: 3%;   
+        top: 2px;
+        bottom: 2px;
+        cursor:pointer;
+        position: fixed;
+        width: 100px;
+        height: 50px;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+        max-height: auto;
+        background:rgb(0,124,189);
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0px 0px -200px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    header{
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+    }
+    h2 {
+        width: 100%;
+        height: auto;
+        margin-left: 5px;
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+    }
+    iframe {
+        width: 150px;
+        height: 110px;
+
+
+    }
+    .finance {
+        width: 100%;
+        margin-top: 8%;
+        height: fit-content;
+        font-size: 7px;
+        text-align: justify;
+        padding: 10px 10px 10px 10px;
+
+    }
+
+    .finance h2{
+        width: 100%;
+        font-size: 10px;
+        margin-left: -40px;
+    }
+
+    .boxutama {
+        width: 100%;
+        height: auto;
+        padding: 20% 2% 2% 2%;
+    }
+    .box_2{
+        width: 100%;
+        height: max-content;
+        padding: 5px 5px 5px 5px;
+    }
+    .foot {
+        width: 100%;
+
+    }
+    .olah {
+        width: auto;
+    }
+    .jenis_kesatu {
+        text-align: justify;
+        width: 350px;
+        left: -7px;
+        font-size: 7px;
+
+    }
+    .ling {
+        font-family: "Montserrat",sans-serif;
+        font-size: 7px;
+    }
+    
+    .jenis_kedua {
+        width: 351px;
+        left: -10px;
+        font-size: 7px;
+
+    }
+    .jenis_ketiga {
+        width: 350px;
+        left: -10px;
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+    .lokicon {
+        margin-top: -55px;
+        margin-left: 25px;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .ikon {
+        width: 29px;
+        height: 30px;
+    }
+
+    .judul {
+        margin-left: 55px;
+        font-size: 15px;
+     
+    }
+
+    .tanggal {
+        margin-top: 10px;
+        margin-left: -140px;
+        font-size: 11px;
+    }
+
+    .para {
+        font-size: 7px;
+    }
+    .banner {
+        width: auto;
+        margin-top: 21%;
+    }
+    .banner_b {
+        width: auto;
+        bottom: 4%;
+    }
+    .teks-container {
+        margin-top: 15px;
+
+    }
+    .teks_kesatu {
+        font-size: 15px;
+
+    }
+    .teks_kedua {
+        font-size: 18px;
+
+    }
+    .teks_ketiga {
+        font-size: 12px;
+
+    }
+
+    .newtombol {
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 13%;
+        margin-left: -9%;
+    }
+
+    .daf {
+        margin-bottom: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        color:floralwhite;
+        text-decoration: none;
+        padding : 10px 10px 0px 10px;
+        
+    }
+    .box_1 {
+        width: 100%;
+        height: auto;
+        padding: 10px 10px 30px 10px;
+        box-shadow: 0  -10px 180px 50px white;
+    }
+
+    .newtombol_2 {
+        margin-top: 65%;
+    }
+    .banner_1 {
+        width: auto;
+        margin-top: -10%;
+    }
+    .banner_2 {
+        width: auto;
+        margin-bottom: -2%;
+        margin-left: -5%;
+    }
+    .overlay {
+        height: 1500px;
+        margin-top: -10%;
+    }
+
+    .foto {
+        top: 0;
+        left: 0;
+        height: 150px;
+        max-height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .teks_dapat {
+        width: auto;
+        padding: 0px 10px 0px 10px;
+
+
+    }
+    .list {
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+    }
+    .sos {
+        margin-top: 5px;
+        margin-left: 35%;
+        width: auto;
+        max-width: auto;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 15px;
+        display: flex;
+    
+    }
+    .med {
+        top: 82%;
+        left: 43%;
+        width: 180px;
+        max-width: auto;
+        position: absolute;
+        font-size: 10px;
+        color: rgb(0,124,189);
+    
+    }
+    .med a {
+        width: 300px;
+        left: -13%;
+        max-width: auto;
+        position: absolute;
+        font-size: 10px;
+        color: rgb(0,124,189);
+        cursor: pointer;
+    
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    .col :nth-child(2) {
+        flex-basis:100%;
+    }
+}   
+
+@media only screen and (max-width:390px) {
+    .checkbtn{
+        display: block;
+        margin-top: 10px;
+    }
+    .logo{
+        margin-left: 3%;   
+        top: 2px;
+        bottom: 2px;
+        cursor:pointer;
+        position: fixed;
+        width: 100px;
+        height: 50px;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+        max-height: auto;
+        background:rgb(0,124,189);
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0px 0px -200px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    header{
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+    }
+    h2 {
+        width: 100%;
+        height: auto;
+        margin-left: 5px;
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+    }
+    iframe {
+        width: 120px;
+        height: 110px;
+        left: 7px;
+        position: relative;
+
+
+    }
+    .finance {
+        width: 100%;
+        margin-top: 13%;
+        height: fit-content;
+        font-size: 7px;
+        text-align: justify;
+        padding: 5px 5px 5px 5px;
+
+    }
+
+    .finance h2{
+        width: 200px;
+        font-size: 6px;
+        margin-left: -10px;
+        text-align: justify;
+    }
+
+    .boxutama {
+        width: 100%;
+        height: auto;
+        padding: 20% 2% 2% 2%;
+    }
+    .box_2{
+        width: 100%;
+        height: max-content;
+        padding: 5px 5px 5px 5px;
+    }
+    .foot {
+        width: 100%;
+
+    }
+    .olah {
+        width: auto;
+    }
+    .jenis_kesatu {
+        text-align: justify;
+        width: 350px;
+        left: 15px;
+        font-size: 7px;
+
+    }
+    .ling {
+        font-family: "Montserrat",sans-serif;
+        font-size: 7px;
+    }
+    
+    .jenis_kedua {
+        width: 350px;
+        left: 15px;
+        font-size: 7px;
+
+    }
+    .jenis_ketiga {
+        width: 350px;
+        left: 15px;
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+    .lokicon {
+        margin-top: -55px;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .ikon {
+        width: 29px;
+        height: 30px;
+    }
+
+    .judul {
+        margin-left: 55px;
+        font-size: 15px;
+     
+    }
+
+    .tanggal {
+        margin-top: 10px;
+        margin-left: -110px;
+        font-size: 11px;
+    }
+
+    .para {
+        font-size: 7px;
+    }
+    .banner {
+        width: auto;
+        margin-top: 25%;
+    }
+    .banner_b {
+        width: auto;
+        margin-top: 85%;
+    }
+    .teks-container {
+        margin-top: -30px;
+
+    }
+    .teks_kesatu {
+        font-size: 10px;
+
+    }
+    .teks_kedua {
+        font-size: 12px;
+
+    }
+    .teks_ketiga {
+        font-size: 8px;
+
+    }
+
+    .newtombol {
+        width: 150px;
+        height: 30px;
+        font-size: 8px;
+        margin-top: -10%;
+        margin-left: -11%;
+    }
+
+    .daf {
+        margin-bottom: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        color:floralwhite;
+        text-decoration: none;
+        padding : 10px 10px 0px 10px;
+        
+    }
+    .box_1 {
+        width: 100%;
+        height: auto;
+        padding: 10px 10px 40px 10px;
+        box-shadow: 0  -10px 180px 50px white;
+    }
+
+    .newtombol_2 {
+        margin-top: 75%;
+    }
+    .banner_1 {
+        width: auto;
+        margin-top: -12%;
+    }
+    .banner_2 {
+        width: auto;
+        margin-bottom: -2%;
+        margin-left: -5%;
+    }
+    .overlay {
+        height: 1500px;
+        margin-top: -10%;
+    }
+
+    .foto {
+        top: 0;
+        left: 0;
+        height: 140px;
+        max-height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .teks_dapat {
+        width: auto;
+        padding: 0px 10px 0px 10px;
+
+
+    }
+
+    .list {
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+    }
+    .med {
+        top: 80%;
+        left: 38%;
+        width: 170px;
+        max-width: auto;
+        position: absolute;
+        font-size: 10px;
+        color: rgb(0,124,189);
+    
+    }
+    .med a {
+        width: 300px;
+        left: -13%;
+        max-width: auto;
+        position: absolute;
+        font-size: 10px;
+        color: rgb(0,124,189);
+        cursor: pointer;
+    
+    }
+}   
